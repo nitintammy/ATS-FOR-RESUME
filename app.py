@@ -35,8 +35,6 @@ def input_pdf_setup(uploaded_file):
     ]
 
     return pdf_parts
-else:
-     raise FileNotFoundError("No file found")
 
 #streamlit app
 st.set_page_config(page_title="ATS Resume Expert")
